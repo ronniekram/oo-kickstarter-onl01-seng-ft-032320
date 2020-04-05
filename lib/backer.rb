@@ -1,6 +1,5 @@
 class Backer
-  attr_accessor
-  attr_reader :backed_projects
+  attr_reader :name, :backed_projects
   
   @@all = []
   
